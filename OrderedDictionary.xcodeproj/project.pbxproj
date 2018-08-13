@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9172AE102121080C00CC7408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9172AE0F2121080C00CC7408 /* main.m */; };
+		9172AE19212108C600CC7408 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9172AE18212108C600CC7408 /* OrderedDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		9172AE0C2121080C00CC7408 /* OrderedDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OrderedDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
 		9172AE0F2121080C00CC7408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9172AE17212108C600CC7408 /* OrderedDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
+		9172AE18212108C600CC7408 /* OrderedDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		9172AE0E2121080C00CC7408 /* OrderedDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				9172AE17212108C600CC7408 /* OrderedDictionary.h */,
+				9172AE18212108C600CC7408 /* OrderedDictionary.m */,
 				9172AE0F2121080C00CC7408 /* main.m */,
 			);
 			path = OrderedDictionary;
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9172AE102121080C00CC7408 /* main.m in Sources */,
+				9172AE19212108C600CC7408 /* OrderedDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

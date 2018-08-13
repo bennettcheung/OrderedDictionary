@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "OrderedDictionary.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        OrderedDictionary* orderedDictionary = [OrderedDictionary orderedDictionaryWithDictionary:@{@"ZZZ" : @"Object 4",
+                                                                                                 @"GGG" : @"Object 2",
+                                                                                                    @"JJJ" : @"Object 3",
+                                                                                                    @"AAA" : @"Object 1"
+                                                                                                    }];
+        for (NSString *key in orderedDictionary)
+        {
+            NSLog(@"Object for  Key '%@' is '%@' at index %ld", key, [orderedDictionary objectForKey:key], (long)[orderedDictionary indexOfKey:key]);
+        }
     }
     return 0;
 }
